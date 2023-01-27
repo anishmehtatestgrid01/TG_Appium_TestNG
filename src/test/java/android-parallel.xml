@@ -6,10 +6,10 @@
     <test name="AndroidApp 1">
         <parameter name="version" value="12" />
         <parameter name="platform" value="Android" />
-        <parameter name="device" value="Pixel 4a" />
-        <parameter name="udids" value="07151JEC205167" />
+        <parameter name="device" value="" />
+        <parameter name="udids" value="" />
 
-        <parameter name="TG_url" value="http://testos.testgrid.io:8053/wd/hub" />
+        <parameter name="TG_url" value="" />
 
         <classes>
             <class name="AndroidApp"/>
@@ -19,10 +19,10 @@
     <test name="AndroidAppTest 2">
         <parameter name="version" value="12" />
         <parameter name="platform" value="Android" />
-        <parameter name="device" value="Nokia G10" />
-        <parameter name="udids" value="PT99652EA1232100843" />
+        <parameter name="device" value="" />
+        <parameter name="udids" value="" />
 
-        <parameter name="TG_url" value="http://testos.testgrid.io:8052/wd/hub" />
+        <parameter name="TG_url" value="" />
 
         <classes>
             <class name="AndroidApp" />
