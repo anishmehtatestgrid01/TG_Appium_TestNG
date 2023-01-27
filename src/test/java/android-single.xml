@@ -6,10 +6,10 @@
     <test name="AndroidApp 1">
         <parameter name="version" value="12" />
         <parameter name="platform" value="Android" />
-        <parameter name="device" value="Pixel 4a" />
-        <parameter name="udids" value="07151JEC205167" />
+        <parameter name="device" value="" />
+        <parameter name="udids" value="" />
 
-        <parameter name="TG_url" value="http://testos.testgrid.io:8053/wd/hub" />
+        <parameter name="TG_url" value="" />
 
         <classes>
             <class name="AndroidApp"/>
