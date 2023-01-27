@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" name="Mobile" parallel="tests">
+
+
+    <test name="AndroidApp 1">
+        <parameter name="version" value="12" />
+        <parameter name="platform" value="Android" />
+        <parameter name="device" value="Pixel 4a" />
+        <parameter name="udids" value="07151JEC205167" />
+
+        <parameter name="TG_url" value="http://testos.testgrid.io:8053/wd/hub" />
+
+        <classes>
+            <class name="AndroidApp"/>
+        </classes>
+    </test>
+
+</suite>
